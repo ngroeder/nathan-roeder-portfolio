@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nathan Roeder | CADD Portfolio</title>
+  <meta name="description" content="CADD / Engineering Design portfolio: AutoCAD, SolidWorks, Revit." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="container">
+    <div class="topbar">
+      <div>
+        <h1>Nathan Roeder</h1>
+        <p class="subtitle">CADD / Applied Engineering Student • AutoCAD • SolidWorks • Revit (beginner)</p>
+      </div>
+      <div class="actions">
+        <a class="btn" href="#projects">Projects</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="card">
+        <h2>About</h2>
+        <p>
+          I create accurate 2D and 3D drawings and models for mechanical and
+          architectural projects. I’m looking for internships or entry-level roles
+          where I can contribute to drafting and engineering design work.
+        </p>
+        <div class="chips">
+          <span class="chip">AutoCAD</span>
+          <span class="chip">SolidWorks</span>
+          <span class="chip">Architectural Drafting</span>
+          <span class="chip">Detailing</span>
+          <span class="chip">Floor Plans</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Contact</h2>
+        <ul class="contact">
+          <li><span>Email:</span> <a href="mailto:nateroeder4567@outlook.com">nateroeder4567@outlook.com</a></li>
+          <li><span>Phone:</span> <a href="tel:+17174491431">717-449-1431</a></li>
+          <li><span>Location:</span> Lancaster, PA</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- ✅ This is the part you were missing -->
+  <main class="container" id="projects" style="margin-top: 40px;">
+    <div class="section-head">
+      <h2>Projects</h2>
+      <p class="muted">Click a project to open the PDF.</p>
+    </div>
+
+    <div id="projectGrid" class="grid" aria-live="polite"></div>
+  </main>
+
+  <footer class="container footer">
+    <p class="muted">© <span id="year"></span> Nathan Roeder</p>
+  </footer>
+
+  <script src="projects.js"></script>
+</body>
+</html>
