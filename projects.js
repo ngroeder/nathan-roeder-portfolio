@@ -23,7 +23,7 @@ const projects = [
   {
     title: "NERF Blaster – Product Design & X-Ray Render",
     subtitle: "Adobe Illustrator • conceptual design • exploded cutaway • technical rendering",
-    file: "projects/nerf-xray-cutaway.pdf",
+    file: "https://drive.google.com/file/d/1hzGLMU18U070LDqm_dGXhjfy_pIGl0lc/view?usp=sharing",
     image: "assets/nerf.png",
     tags: ["Product Design", "Illustrator", "Visualization", "Engineering Graphics"]
   }
